@@ -7,16 +7,16 @@
     <parent>
         <groupId>ru.dev.bachinin</groupId>
         <artifactId>yandex-kafka-starter</artifactId>
-        <version>1.0.0-SNAPSHOT</version>
+        <version>1.0.0</version>
     </parent>
 
 
     <artifactId>kafka-starter-example</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
     <properties>
-        <kafka-starter.version>1.0.0-SNAPSHOT</kafka-starter.version>
+        <kafka-starter.version>1.0.0</kafka-starter.version>
     </properties>
 
     <dependencies>
