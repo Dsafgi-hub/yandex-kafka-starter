@@ -1,0 +1,12 @@
+kafka:
+  consumer:
+    topic: example-topic
+    group-id: group
+    bootstrap-servers: localhost:29092
+  producer:
+    topic: example-topic
+    bootstrap-servers: localhost:29092
+
+spring:
+  main:
+    allow-bean-definition-overriding: true

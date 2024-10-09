@@ -1,0 +1,15 @@
+kafka:
+  consumer:
+    topic: example-topic
+    group-id: group
+    bootstrap-servers: localhost:29092
+  producer:
+    topic: example-topic
+    group-id: group
+    bootstrap-servers: localhost:29092
+
+logging:
+  level:
+    ROOT: INFO
+    org.springframework: WARN
+    ru.dev.bachinin: DEBUG
